@@ -4,18 +4,23 @@
   "private": true,
   "dependencies": {
     "react": "^16.1.0",
-    "react-dom": "^16.1.0",
-    "react-scripts": "1.0.17"
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^1.0.0",
+    "react-scripts": "^1.0.17"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/safeimuslim/react-loading-components-demo.git"
@@ -30,5 +35,5 @@
   "bugs": {
     "url": "https://github.com/safeimuslim/react-loading-components-demo/issues"
   },
-  "homepage": "https://github.com/safeimuslim/react-loading-components-demo"
+  "homepage": "https://safeimuslim.github.io/react-loading-components-demo"
 }
