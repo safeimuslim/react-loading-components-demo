@@ -104,7 +104,7 @@ class App extends Component {
                 <Loading type='tail_spin' width={72} height={72} fill='#FF5722' />
                 <br />
                 <br />
-                <Label bsStyle="default">type: hearts</Label>
+                <Label bsStyle="default">type: tail_spin</Label>
               </Wrapper>
             </Col>
             <Col xs={4} md={4}>
