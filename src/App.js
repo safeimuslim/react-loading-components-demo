@@ -112,7 +112,7 @@ class App extends Component {
                 <Loading type='three_dots' width={72} height={72} fill='#795548' />
                 <br />
                 <br />
-                <Label bsStyle="default">type: hearts</Label>
+                <Label bsStyle="default">type: three_dots</Label>
               </Wrapper>
             </Col>
           </Row>
