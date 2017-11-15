@@ -87,7 +87,7 @@ class App extends Component {
                 <Loading type='rings' width={72} height={72} fill='#FFEB3B' />
                 <br />
                 <br />
-                <Label bsStyle="default">type: hearts</Label>
+                <Label bsStyle="default">type: rings</Label>
               </Wrapper>
             </Col>
             
