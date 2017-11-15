@@ -71,7 +71,7 @@ class App extends Component {
                 <Loading type='oval' width={72} height={72} fill='#009688' />
                 <br />
                 <br />
-                <Label bsStyle="default">type: hearts</Label>
+                <Label bsStyle="default">type: oval</Label>
               </Wrapper>
             </Col>
             <Col xs={4} md={4}>
