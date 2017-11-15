@@ -96,7 +96,7 @@ class App extends Component {
                 <Loading type='spinning_circles' width={72} height={72} fill='#FF9800' />
                 <br />
                 <br />
-                <Label bsStyle="default">type: hearts</Label>
+                <Label bsStyle="default">type: spinning_circles</Label>
               </Wrapper>
             </Col>
             <Col xs={4} md={4}>
